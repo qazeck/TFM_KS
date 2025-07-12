@@ -5,12 +5,12 @@
 ### Estructura del repositorio
 
 - **PC_predict.py**: Script a ejecutar para predecir las clases de cáncer junto con sus probabilidades estimadas a partir de imágenes de resonancia magnética.
-- **PC_model.ipynb**: Script donde aparece el código principal utilizado para la creación del modelo predictivo
-- **Prostate_cancer_model.ipynb**: Script adicional con la comparativa de distintos modelos y algunas conclusiones obtenidas (algo más completo)
+- **Prostate_cancer_model.ipynb**: Script donde aparece el código principal utilizado para la creación del modelo predictivo
 - **scaler_vgg16.joblib**: Escalador para normalizar los embeddings.
 - **pca_vgg16.joblib**: Objeto PCA entrenado para reducción de dimensionalidad.
 - **svm_vgg16.joblib**: Modelo SVM entrenado para la predicción final.
 - **/data/images/**: Carpeta donde deben colocarse las imágenes a predecir (formato .jpg).
+- **/data/Prostate_Dataset/**: Carpeta donde se encuentran los datos de entrada del modelo divididos en train y test (formato .jpg).
 
 
 ### Instrucciones de ejecución
