@@ -9,8 +9,8 @@
 - **scaler_vgg16.joblib**: Escalador para normalizar los embeddings.
 - **pca_vgg16.joblib**: Objeto PCA entrenado para reducción de dimensionalidad.
 - **svm_vgg16.joblib**: Modelo SVM entrenado para la predicción final.
-- **/data/images/**: Carpeta donde deben colocarse las imágenes a predecir (formato .jpg).
-- **/data/Prostate_Dataset/**: Carpeta donde se encuentran los datos de entrada del modelo divididos en train y test (formato .jpg).
+- **images/**: Carpeta donde deben colocarse las imágenes a predecir (formato .jpg).
+- **Prostate_Dataset/**: Carpeta donde se encuentran los datos de entrada del modelo divididos en train y test (formato .jpg).
 
 
 ### Instrucciones de ejecución
